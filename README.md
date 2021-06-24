@@ -6,4 +6,5 @@ is always receiving power.
 ## Usage
 To use this app, launch it from the command line using `py main.py` or by running `run.bat`. When it starts, a ceiling
 fan will be generated, and you will be prompted with options to reverse the direction, cycle through the settings, or 
-exit the app.
+exit the app. Use the number keys on your keyboard, and then press enter. After each interaction, a message describing
+the state of the fan will be displayed, as well as another prompt.
