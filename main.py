@@ -10,14 +10,14 @@ def main():
     print_state(fan)
     print('When prompted, please enter the corresponding number and hit enter to pull one of the cords.')
 
-    while True:
+    while True:  # Entering an infinite loop
         prompt()
 
         try:
-            user_input = int(input())
-            if 0 <= user_input <= 2:
+            user_input = int(input())  # Tries to validate user input as int
+            if 0 <= user_input <= 2:  # Makes sure user input is within the options in the prompt
                 if user_input == 0:
-                    break
+                    break  # Closes the command line
                 elif user_input == 1:
                     fan.reverse_direction()
                 elif user_input == 2:
